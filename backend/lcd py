@@ -1,1 +1,6 @@
-
+def show_label(product):
+    print("=== LCD DISPLAY ===")
+    print(f"Ürün: {product['name']}")
+    print(f"Barkod: {product['barcode']}")
+    print(f"Fiyat: {product['price']} TL")
+    print("===================")
